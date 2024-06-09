@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-blue-1000 {
+  background-color: rgb(17, 17, 48);
+}
+.btn:active {
+  transform: scale(0.9);
+}
