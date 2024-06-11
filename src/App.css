@@ -7,3 +7,16 @@
 .btn:active {
   transform: scale(0.9);
 }
+.widths {
+  width: 500px;
+}
+@media screen and (max-width: 520px) {
+  .widths {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .widths {
+    width: 250px;
+  }
+}
